@@ -14,6 +14,7 @@ body{
 .myphoto{
 	width: 170px;
 	border-radius: 50%;
+	border: 3px solid white; 
 }
 
 h1{
@@ -21,11 +22,18 @@ h1{
 }
 
 .jumbotron{
-	background-color: rgba(0,0,0,0.85);
+	background-color: rgba(0,0,0,0.90);
 }
 
 #card_icon{
 	width: 80px;
 }
 
+img#card_icon, #work_icon {
+  filter:invert(100%);
+}
 
+.card,.card-header,#workflow{
+	/*background-color: rgba(0,0,0,0.85);*/
+	background-color: transparent;
+}
